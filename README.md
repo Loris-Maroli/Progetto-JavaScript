@@ -1,5 +1,3 @@
-# Progetto-JavaScript
-
 # Counter Application
 
 ## Descrizione
@@ -43,4 +41,25 @@ L'interfaccia è responsiva e si adatta a dispositivi di diverse dimensioni, dai
 ## Struttura del progetto
 
 Il progetto è organizzato nei seguenti file:
+
+
+- **index.html**: Contiene la struttura HTML dell'applicazione, che include il contatore e i pulsanti di incremento e decremento.
+- **styles.css**: Gestisce il design dell'app, con la gestione della responsività e gli effetti visivi.
+- **script.js**: Contiene la logica per il funzionamento del contatore (incremento e decremento).
+
+## Come funziona?
+
+1. All'inizio, il contatore è impostato a `0`.
+2. Cliccando sul pulsante **+**, il valore del contatore aumenta di uno.
+3. Cliccando sul pulsante **-**, il valore del contatore diminuisce di uno, ma non andrà mai sotto `0`.
+4. La pagina è progettata per adattarsi automaticamente a schermi di varie dimensioni grazie alle media queries in **CSS**.
+
+## Contribuire
+
+Se vuoi contribuire a questo progetto, sentiti libero di fare un fork, creare una nuova branch e inviare una pull request con le tue modifiche. Ogni contributo è apprezzato!
+
+## Licenza
+
+Questo progetto è distribuito sotto la **MIT License**. Vedi il file LICENSE per maggiori dettagli.
+
 
